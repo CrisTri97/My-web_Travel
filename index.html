@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body>
+    <!-- Header section starts -->
+    <header class="header">
+
+        <a href="#" class="logo"><i class="fas fa-paper-plane"></i> travel </a>
+
+        <form action="" class="search-form">
+            <input type="search" placeholder="search here ..." name="" id="searchBox">
+            <label for="searchBox" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-moon" id="theme-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#pricing">pricing</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <form action="" class="login-form">
+
+            <div class="inputBox">
+                <span>username</span>
+                <input type="text" placeholder="enter your name">
+            </div>
+
+            <div class="inputBox">
+                <span>password</span>
+                <input type="password" placeholder="enter your password">
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" id="login-remember">
+                <label for="login-remember">remember me</label>
+            </div>
+            <input type="submit" class="btn" value="login">
+        </form>
+
+    </header>
+    <!-- Header section end -->
+    <!-- Home section starts -->
+    <section class="home" id="home">
+
+        <div class="image" data-aos="fade-down">
+            <img src="./asset/images/home-img.svg" alt="">
+        </div>
+
+        <div class="content" data-aos="fade-up">
+            <h3>adventure is worthwhile</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit adipisci ut nisi dignissimos quae aliquam
+                sed sit ipsum impedit ab.</p>
+            <a href="#" class="btn">explore now</a>
+        </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- Filter form section starts -->
+    <section class="form-container" data-aos="zoom-in">
+
+        <form action="">
+
+            <div class="inputBox">
+                <span>where to</span>
+                <input type="text" placeholder="search places ...">
+            </div>
+
+            <div class="inputBox">
+                <span>arrivals</span>
+                <input type="date">
+            </div>
+
+            <div class="inputBox">
+                <span>leaving</span>
+                <input type="date">
+            </div>
+
+            <input type="submit" value="book now" class="btn">
+        </form>
+    </section>
+    <!-- Filter form section ends -->
+
+    <!-- Packages section starts -->
+    <section class="packages" id="packages">
+
+        <h1 class="heading">our<span>packages</span></h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-up">
+                <div class="images">
+                    <img src="./asset/images/p-1.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i>mumbai</h3>
+                </div>
+                <div class="content">
+                    <div class="price">290.99 <span>350.99</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, beatae.</p>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="images">
+                    <img src="./asset/images/p-2.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i>hawaii</h3>
+                </div>
+                <div class="content">
+                    <div class="price">290.99 <span>350.99</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, beatae.</p>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="images">
+                    <img src="./asset/images/p-3.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i>sydney</h3>
+                </div>
+                <div class="content">
+                    <div class="price">290.99 <span>350.99</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, beatae.</p>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="images">
+                    <img src="./asset/images/p-4.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i>paris</h3>
+                </div>
+                <div class="content">
+                    <div class="price">290.99 <span>350.99</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, beatae.</p>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="images">
+                    <img src="./asset/images/p-5.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i>tokyo</h3>
+                </div>
+                <div class="content">
+                    <div class="price">290.99 <span>350.99</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, beatae.</p>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="images">
+                    <img src="./asset/images/p-6.jpg" alt="">
+                    <h3> <i class="fas fa-map-marker-alt"></i>egypt</h3>
+                </div>
+                <div class="content">
+                    <div class="price">290.99 <span>350.99</span></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, beatae.</p>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Packages section ends -->
+
+    <!-- Services section starts -->
+    <section class="services" id="services">
+        <h1 class="heading">our<span>services</span></h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="flip-left">
+                <span>01</span>
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotel</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, animi!</p>
+            </div>
+
+            <div class="box" data-aos="flip-left">
+                <span>02</span>
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, animi!</p>
+            </div>
+
+            <div class="box" data-aos="flip-left">
+                <span>03</span>
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, animi!</p>
+            </div>
+
+            <div class="box" data-aos="flip-left">
+                <span>04</span>
+                <i class="fas fa-globe"></i>
+                <h3>around the world</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, animi!</p>
+            </div>
+
+            <div class="box" data-aos="flip-left">
+                <span>05</span>
+                <i class="fas fa-hiking"></i>
+                <h3>new adventures</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, animi!</p>
+            </div>
+
+            <div class="box" data-aos="flip-left">
+                <span>06</span>
+                <i class="fas fa-bullhorn"></i>
+                <h3>safety guide</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, animi!</p>
+            </div>
+        </div>
+    </section>
+    <!-- Services section ends -->
+
+    <!-- Pricing section starts -->
+    <section class="pricing" id="pricing">
+
+        <h1 class="heading">our<span>pricing</span></h1>
+
+        <div class="box-container">
+
+            <div class="box" data-aos="zoom-in-down">
+                <h3>basic plan</h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">30</span>
+                    <span>mo</span>
+                </div>
+                <ul>
+                    <li>10 days</li>
+                    <li>food and drinks</li>
+                    <li>safety guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box" data-aos="zoom-in-down">
+                <h3>standard plan</h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">50</span>
+                    <span>mo</span>
+                </div>
+                <ul>
+                    <li>20 days</li>
+                    <li>food and drinks</li>
+                    <li>safety guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+
+            <div class="box" data-aos="zoom-in-down">
+                <h3>premium plan</h3>
+                <div class="price">
+                    <span>$</span>
+                    <span class="amount">90</span>
+                    <span>mo</span>
+                </div>
+                <ul>
+                    <li>30 days</li>
+                    <li>food and drinks</li>
+                    <li>safety guide</li>
+                    <li>insurance</li>
+                    <li>luxury hotel</li>
+                </ul>
+                <a href="#" class="btn">choose plan</a>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing section ends -->
+
+    <!-- Review section starts -->
+    <section class="review" id="review">
+
+        <h1 class="heading">client's<span>review</span></h1>
+
+        <div class="swiper review-slider" data-aos="zoom-in">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <img src="./asset/images/pic-1.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi alias illo, enim optio
+                        accusantium nihil. Necessitatibus placeat magnam quas voluptatem expedita dolores atque. Ducimus
+                        provident eos perferendis voluptas mollitia.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./asset/images/pic-2.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi alias illo, enim optio
+                        accusantium nihil. Necessitatibus placeat magnam quas voluptatem expedita dolores atque. Ducimus
+                        provident eos perferendis voluptas mollitia.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./asset/images/pic-3.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi alias illo, enim optio
+                        accusantium nihil. Necessitatibus placeat magnam quas voluptatem expedita dolores atque. Ducimus
+                        provident eos perferendis voluptas mollitia.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <img src="./asset/images/pic-4.png" alt="">
+                    <h3>john deo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et animi alias illo, enim optio
+                        accusantium nihil. Necessitatibus placeat magnam quas voluptatem expedita dolores atque. Ducimus
+                        provident eos perferendis voluptas mollitia.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Review section ends -->
+
+    <!-- Contact section starts -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name" data-aos="fade-up">
+                <input type="email" placeholder="email" data-aos="fade-up">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number" data-aos="fade-up">
+                <input type="text" placeholder="subject" data-aos="fade-up">
+            </div>
+
+            <textarea name="" placeholder="your message" id="" cols="30" rows="10" data-aos="fade-up"></textarea>
+
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+    <!-- Contact section ends -->
+
+    <!-- Blogs section starts -->
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">our<span> blogs</span></h1>
+
+        <div class="box-container">
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="./asset/images/blog-1.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-calendar"></i> 21 jan, 2022 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="./asset/images/blog-2.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-calender"></i> 21 jan, 2022 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <div class="image">
+                    <img src="./asset/images/blog-3.svg" alt="">
+                </div>
+                <div class="content">
+                    <h3>explore the world now, adventure awaits</h3>
+                    <a href="#" class="btn">read more</a>
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-calender"></i> 21 jan, 2022 </a>
+                        <a href="#"><i class="fas fa-user"></i> by admin </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blogs section ends -->
+
+    <!-- Footer  section starts -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box" data-aos="fade-up">
+                <h3>our branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> india </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> russia </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> japan </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> france </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> canada </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-chevron-right"></i> home </a>
+                <a href="#packages"><i class="fas fa-chevron-right"></i> packages </a>
+                <a href="#services"><i class="fas fa-chevron-right"></i> services </a>
+                <a href="#pricing"><i class="fas fa-chevron-right"></i> pricing </a>
+                <a href="#review"><i class="fas fa-chevron-right"></i> review </a>
+                <a href="#blogs"><i class="fas fa-chevron-right"></i> blogs </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"><i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"><i class="fas fa-envelope"></i> tmtri1911@gmail.com </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Tay Ninh city, Tay Ninh Town </a>
+            </div>
+
+            <div class="box" data-aos="fade-up">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"><i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"><i class="fab fa-pinterest"></i> pinterest </a>
+            </div>
+        </div>
+
+        <div class="credit">creadet by<span> mr.MinhTri</span> | all right reserved</div>
+    </section>
+    <!-- Footer  section ends -->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./asset/js/main.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            delay: 400,
+        });
+    </script>
+</body>
+
+</html>
